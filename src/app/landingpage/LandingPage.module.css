@@ -1,0 +1,138 @@
+/* LandingPage.module.css */
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: auto;
+}
+
+.formSection {
+  width: 50%;
+}
+
+.imageSection {
+  width: 40%;
+  height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  color: #0357f8;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-align: left;
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-family: "Harmonia Sans";
+}
+
+.lableText {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.phoneInput {
+  width: 100%;
+  height: 40px;
+  padding: 12px;
+  border-radius: 30px;
+  border: 2px solid #e3e3e3;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.phoneInput:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+.phoneInput input {
+  border: none; /* Remove the inner border */
+  outline: none; /* Remove focus outline */
+}
+
+.inputField {
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #e3e3e3;
+  border-radius: 30px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+.button {
+  width: 200px;
+  padding: 15px 25px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
+
+.button:active {
+  background-color: #003f87; /* Even darker on active */
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.checkboxContainer input {
+  margin-right: 8px; /* Space between checkbox and label */
+}
+
+.checkboxContainer label {
+  font-weight: normal;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+.inputContainer {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countryCode {
+  width: 60px;
+  border-radius: 8px;
+  border: 2px solid #e3e3e3;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.phoneNumber {
+  flex-grow: 1;
+  margin-left: 10px;
+}
